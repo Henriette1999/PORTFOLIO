@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+
+    /*Removing an expected gap or space*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:10px;
+    font-family:'Montsarrat', sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+/*1st Section: Hero section some not working*/
+h1{
+    font-size: 1.2em;
+    font-style: arial;
+}
+
+    
+
+div.port{
+background-color: rgb(41, 39, 39);
+height: 7em;
+width:100%;
+
+}
+div.port #btn{
+    float: right;
+    font-size: 2em;
+    height: 12%;
+    margin-right: 2%;
+    border-radius: 2px;
+    background-color: rgb(56, 56, 56);
+}
+#hero {
+    background-color:rgb(51, 49, 49) ;
+   background-position: top center;
+   position: relative;
+}
+
+
+#hero h1{
+display: block;
+width: fit-content;
+font-size: 55px;
+position: relative;
+color: rgb(235, 233, 233);
+margin-top: 50%;
+}
+#p1{
+    color: rgb(128, 45, 45);
+    font-size: 40px;
+}
+/*1st Section:End Hero section*/
+
+/*2rd Section: About section*/
+#about{
+    background-color: rgb(47, 47, 78);
+}
+#about .about{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;  
+}
+.head{
+    font-size: 28px;
+    color: rgb(190, 190, 190);
+}
+hr{
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 0;
+}
+.heading{
+    color: rgb(14, 13, 13);
+    margin-top: -1%;
+    font-size: 16px;
+}
+#sentence{
+    margin-top: -1%;
+    color: gray;
+    font-size: 16px;
+}
+.about-buttom{
+    float: left;
+    padding: 5px;
+}
+
+
+#about.about-buttom{
+    display: flex;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    
+}
+
+
+/*2nd Section: End of About section*/
+
+/*3rd Section: Contact*/
+.nav-list{
+    
+    background-color: rgb(224, 66, 87);
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.top{
+    float: right;
+    color: blanchedalmond;
+    margin-top: 4px;
+    margin-right: 2%;
+    font-size: 2.3em;
+}
+#link{
+    line-height: 50px;
+    
+}
+.nav-list ul a{
+    padding: 5px 20px;
+}
+.top a:hover{
+    background-color: rgb(7, 72, 107);  
+}
+/*3rd Section: Contact*/
+#contact{
+    background-color: gray;
+}
+.heading2{
+    color: rgb(229, 226, 226);
+    font-size: 36px;
+    margin-top: 6%;
+}
+#p2{
+    color: rgb(201, 195, 195);
+    font-family: italic;
+    margin-top: 12%;
+    font-size: 20px;
+}
